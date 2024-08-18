@@ -9,8 +9,8 @@ public class PhuongThuc {
         int a =5;
         int b =10;
         int c = a +b;
-        sum = c;
-        System.out.println(sum);
+
+        System.out.println(c);
     }
 
 
@@ -34,11 +34,11 @@ public class PhuongThuc {
 
     }
     public static void main(String[] args) {
-        PhuongThuc PT = new PhuongThuc();
+       PhuongThuc PT = new PhuongThuc();
         PT.cong2so();
         PT.nhan2so();
-        System.out.println(PT.nhan2so() + 5);
-       PT.cong2so(10,70);
+        System.out.println(PT.nhan2so() * 5);
+          PT.cong2so(10,70);
 
         System.out.println(PT.nhan3so(2,5,1)/5);
     }
