@@ -5,11 +5,13 @@ public class Ham {
         System.out.println(url);
     }
     public static void click (String elementname1){
+
         System.out.println("Click element: "+elementname1);
     }
 
     public static void setText(String Text)
     {
+
         System.out.println("Set Text: "+ Text);
     }
 

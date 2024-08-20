@@ -22,7 +22,7 @@ public class Array2
 
         // Dùng For kiểm tra theo tên
         for (int i =0; i<Customer.length; i++){
-            if(Customer[i].equals("Lan"))
+            if(Customer[i].equals("Huệ"))
             {
                 check = true;
                 break;
