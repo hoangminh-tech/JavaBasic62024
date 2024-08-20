@@ -13,10 +13,10 @@ public class Array {
         number1 [2] = 02;
         number1 [3] = 43;
         number1 [4] = 11;
-        number1 [5] = 33;
+        number1 [5] = 12;
 
         System.out.println("Độ dài mảng: "  + number1.length);
-
+        //Duyệt mảng
         for (int i =0; i<number1.length;i++){
             System.out.println(number1[i]);
         }
