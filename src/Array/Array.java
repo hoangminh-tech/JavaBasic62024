@@ -16,7 +16,7 @@ public class Array {
         number1 [5] = 12;
 
         System.out.println("Độ dài mảng: "  + number1.length);
-        //Duyệt mảng
+        //Duyệt giá trị trong set
         for (int i =0; i<number1.length;i++){
             System.out.println(number1[i]);
         }
